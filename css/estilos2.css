@@ -1,0 +1,191 @@
+
+
+
+body{
+  font-family: Arial;
+  background-color: mediumseagreen;
+}
+
+fieldset{
+  width: 280px;
+  margin: 0 px;
+  border: none;
+  padding: 0 0 10px 0;
+  background-color: white;
+  
+}
+
+form{
+  background-color: white;
+  width: 280px;
+  padding: 40px 10px 0 10px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+input{
+  display: block;
+  border: none;
+  margin: 20px auto;
+  width: 280px;
+
+  background-color: eaeaea;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+legend{
+  width: 100px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #777;
+}
+
+input[type="submit"]{
+  background-color: mediumseagreen;
+  color: white;
+  cursor: pointer;
+}
+
+section{
+  width: 600px;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+
+  background: lightgreen no-repeat;
+  /*cursor: pointer;*/
+  /*overflow-y: scroll;*/
+  /*background-color: lightgreen;*/
+  /*background-image: url("img1.jpg");*/
+  /*background-attachment: scroll;*/
+  background-position: 20px;
+
+  font: 24 Impact;
+}
+
+a:link{
+  text-decoration: none;
+
+  font-size: 30px;
+}
+
+a:active{
+  background-color: rgb(230, 156, 86);
+
+  font-size: 60px;
+}
+/*Pasar indicador por la palabra*/
+a:hover{
+    background-color: rgb(88, 210, 194);
+}
+
+a:visited{
+  color: black;
+
+}
+
+table{
+  border: 3px solid blue;
+
+}
+
+td{
+  width: 100px;
+  height: 60px;
+  padding: 30px;
+
+  border: 1px solid black;
+  background-color: rgb(108, 195, 51);
+}
+
+ul{
+  list-style: none;
+
+  color: rgb(112, 190, 153);
+}
+
+.divs{
+  top: 50px;
+  left: 50px;
+
+  width: 200px;
+  height: 70px;
+
+  text-align: center;
+
+  border: 1px solid black;
+  background-color: black;
+  }
+
+  h2{
+    margin-top: 20px;
+
+    color: red;
+
+    font-family: fantasy;
+  }
+
+
+
+  /*Clases*/
+
+  .primero{
+    color: rgb(179, 195, 72);
+
+  }
+
+  .segundo{
+    position: fixed;
+    top: 100px;
+    left: 150px;
+
+    width: 100px;
+
+    color: rgb(91, 13, 0);
+    border: 1px solid black;
+  }
+
+  /*Indetidades*/
+  #tercero{
+    border: 1px solid rgb(136, 93, 76);
+  }
+
+  p{
+    font: bold oblique 16px/2 Verdana;
+  }
+
+  .familyname{
+    font-family: Arial black;
+  }
+
+  .genericfamily{
+    font-family: cursive;
+  }
+
+  .italic{
+    font-style: italic;
+  }
+
+  .oblique{
+    font-style: oblique;
+  }
+
+.linea{
+  line-height: 60px;
+}
+
+li{
+  list-style: url(https://devcode.la/static/arrow.png) square;
+}
+
+figure{
+  padding: 5px;
+
+  border: 2px solid #bbb;
+}
